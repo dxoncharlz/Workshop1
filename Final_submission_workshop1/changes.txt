@@ -1,0 +1,24 @@
+Changes for domain model
+
+1.Remove database connection.
+We remove the data base connection on our domain model due to the fact that, the demain model does not supposed 
+to have data base .According to Craig Larman software concepts, databases should not be included in the
+domain model [1, p130].
+
+2.Association word "manage" from member to boat.
+We have changed the association word from "manage" to "own" since the word "manage" for the member to boat association can be 
+missunderstod.
+
+3.Changing the way of naming association words
+We have changed the way of naming the association words according to Larmans
+book [1, p160].For example,"event has calender" to "EventHasCalender".
+
+4.Adding multiplicity on the association
+We have added multiplicity on our domain model associations inorder to make it easier to understand the relations. For example, one 
+member can own many boats.
+
+Refrences
+1. Larman C., Applying UML and Patterns 2nd Ed, 2001, [e-book] Available at:
+The University of Texas at Dallas <
+https://www.utdallas.edu/~chung/SP/applying-uml-and-patterns.pdf > [Accessed 15 September
+2016]
