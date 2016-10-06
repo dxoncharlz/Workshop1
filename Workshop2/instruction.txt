@@ -1,0 +1,3 @@
+instructions of how to run java file.
+1.go to view package
+2.run the "run.java" class
